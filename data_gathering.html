@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Gathering - Click&Go</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="data-page">
+
+    <section class="hero">
+
+        <header class="navbar">
+
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Click&Go Logo" class="logo-img">
+                <span class="logo-text">Click&Go</span>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="index.html">Home</a>
+                <a href="data_gathering.html" class="active">Data Gathering</a>
+                <a href="results.html">Results</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown(event)">
+                        More ▾
+                    </button>
+
+                    <div class="dropdown-content" id="moreDropdown">
+                        <a href="reflections.html">Reflections</a>
+                        <a href="additional_findings.html">Additional Findings</a>
+                        <a href="p_walkthrough.html">Prototype Walkthrough</a>
+                        <a href="video_demo.html">Video Demo</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Data Gathering</h2>
+                <p>Materials, instruments, and documentation used in usability evaluation.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONSENT -->
+    <section class="container card" id="consent">
+
+        <div class="section-header" data-step="1">
+            <h3>CONSENT FORM</h3>
+
+            <div class="step-lines">
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+            </div>
+        </div>
+
+        <div class="image-box">
+            <img src="images/letter.png"
+                 alt="Consent Form Document"
+                 onclick="openLightbox(this)">
+        </div>
+    </section>
+
+    <!-- RESPONDENTS -->
+    <section class="container card" id="respondents">
+
+        <div class="section-header" data-step="2">
+            <h3>RESPONDENTS INFORMATION</h3>
+
+            <div class="step-lines">
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+            </div>
+        </div>
+
+        <h4>Participant Background</h4><br>
+
+        <p>
+            The study involved <strong>20 participants</strong> from the <strong>Bachelor of Arts in Communication (BACOM) 3rd year program</strong>.
+            These respondents were selected to evaluate the usability of the <strong>Click&Go system</strong>. A <strong>Google Meet session</strong>
+            was conducted to introduce the system, explain its features, and guide the participants on how to accomplish the usability testing survey.
+            After the walkthrough, the participants interacted with the system and provided their feedback through the survey.
+            The data gathering process was documented through <strong>video recordings and screenshots</strong>.
+        </p>
+
+        <br>
+
+        <div class="image-box">
+            <img src="images/res_1.png" onclick="openLightbox(this)">
+            <img src="images/res_2.png" onclick="openLightbox(this)">
+        </div>
+
+    </section>
+
+    <!-- SURVEY -->
+    <section class="container card" id="survey">
+
+        <div class="section-header" data-step="3">
+            <h3>SURVEY INSTRUMENTS</h3>
+
+            <div class="step-lines">
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+            </div>
+        </div>
+
+        <div class="instrument-box">
+            <h4>Individual Heuristic Evaluation Workbook</h4>
+            <p>
+                Each group member completed an individual heuristic evaluation to assess usability issues of the Click&Go system.
+            </p>
+
+            <div class="file-links">
+                <a href="assets/HEW_Analyn.pdf" target="_blank" class="form-link">📄 Maria Analyn Cantor</a>
+                <a href="assets/HEW_Blessz.pdf" target="_blank" class="form-link">📄 Blesszy Joy Nabus</a>
+                <a href="assets/HEW_Jo.pdf" target="_blank" class="form-link">📄 Joan Mae Palaypayon</a>
+                <a href="assets/HEW_Greg.pdf" target="_blank" class="form-link">📄 Jose Greg Picaso</a>
+                <a href="assets/HEW_Harold.pdf" target="_blank" class="form-link">📄 Harold Hector Vale</a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="instrument-box">
+            <h4>Usability Testing Survey</h4>
+            <p>
+                The usability testing survey was created using Google Forms to evaluate user experience and system usability.
+            </p>
+
+            <div class="form-center">
+                <a href="https://forms.gle/pu6PbVyAep9kCArT6" target="_blank" class="form-link">
+                    📄 View Google Form
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- DOCUMENTATION -->
+    <section class="container card" id="docs">
+
+        <div class="section-header" data-step="4">
+            <h3>DOCUMENTATION</h3>
+
+            <div class="step-lines">
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+                <div class="step-line"></div>
+            </div>
+        </div>
+
+        <h4>Photos During Testing</h4><br>
+
+        <div class="doc-grid">
+            <img src="images/doc-1.jpg" onclick="openLightbox(this)">
+            <img src="images/doc-2.jpg" onclick="openLightbox(this)">
+            <img src="images/doc-3.jpg" onclick="openLightbox(this)">
+            <img src="images/doc-4.jpg" onclick="openLightbox(this)">
+            <img src="images/doc-5.jpg" onclick="openLightbox(this)">
+            <img src="images/doc-6.png" onclick="openLightbox(this)">
+        </div>
+
+        <br>
+
+        <h4>Supporting Files / Documents</h4>
+
+        <div class="video-wrapper">
+            <div class="video-title">Gmeet</div>
+
+            <div class="video-box">
+                <iframe 
+                    src="https://drive.google.com/file/d/14mERMfncFxtj3OIAgUIilZCHTidII-LA/preview"
+                    width="100%" 
+                    height="500"
+                    allow="autoplay">
+                </iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">×</span>
+        <img id="lightbox-img">
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2026 Click&Go Usability Evaluation Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

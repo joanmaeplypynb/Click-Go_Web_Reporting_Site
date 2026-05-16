@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype Walkthrough - Click&Go</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="data-page">
+
+    <section class="hero">
+
+        <header class="navbar">
+
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Click&Go Logo" class="logo-img">
+                <span class="logo-text">Click&Go</span>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="index.html">Home</a>
+                <a href="data_gathering.html">Data Gathering</a>
+                <a href="results.html">Results</a>
+
+                 <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(event)">
+        More ▾
+    </button>
+
+    <div class="dropdown-content" id="moreDropdown">
+        <a href="reflections.html">Reflections</a>
+        <a href="additional_findings.html">Additional Findings</a>
+        <a href="p_walkthrough.html" class="active">Prototype Walkthrough</a>
+        <a href="video_demo.html">Video Demo</a>
+    </div>
+</div>
+
+            </div>
+
+        </header>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Prototype Walkthrough</h2>
+            <p>A step-by-step guide of the Click&Go prototype screens and user flow.</p>
+            </div>
+        </div>
+
+    </section>
+
+<section class="container card">
+   <div class="section-header">
+    <h3>Prototype Walkthrough</h3>
+
+    <div class="step-lines">
+        <div class="step-line active"></div>
+        <div class="step-line"></div>
+        <div class="step-line"></div>
+    </div>
+</div>
+
+    <p>
+        The Prototype Walkthrough presents the complete user journey of the Click&Go system,
+        showing how users interact with the application from the welcome screen up to the final
+        booking confirmation. Each screen was designed to provide a simple, smooth, and
+        user-friendly experience for commuters. The user flow starts from the Welcome Screen,
+        followed by the Home Page where users begin the booking process. They proceed to the
+        Booking Page to enter travel details, review all information on the Confirmation Page,
+        and finally receive the Success Page after completing the transaction.
+    </p>
+
+    <div class="form-center">
+        <a href="https://www.figma.com/proto/d3KZwpenpc8BH21g1DVqKC/CLICK-GO_Desktop?node-id=0-1&t=lsAVSpwpm4h1fXHC-1" target="_blank" class="form-link">
+            📄 View Full Click&Go Prototype
+        </a>
+    </div>
+</section>
+
+<section class="container card">
+   <div class="section-header">
+    <h3>Prototype Screens</h3>
+
+    <div class="step-lines">
+        <div class="step-line"></div>
+        <div class="step-line active"></div>
+        <div class="step-line"></div>
+    </div>
+</div>
+
+    <p>
+        Below are the different screens of the Click&Go prototype showing the complete
+        user flow from login, booking, schedule selection, payment, and confirmation.
+    </p>
+
+    <div class="p-walkthrough-grid">
+
+        <div class="p-walk-card">
+            <img src="images/a.png" alt="Prototype Screen 1" onclick="openLightbox(this)">
+            <p>Welcome screen of the Click&Go system</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/b.png" alt="Prototype Screen 2" onclick="openLightbox(this)">
+            <p>Welcome page with Sign In and Sign Up buttons</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/c.png" alt="Prototype Screen 3" onclick="openLightbox(this)">
+            <p>Login page for user account access</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/d.png" alt="Prototype Screen 4" onclick="openLightbox(this)">
+            <p>Registration page for new users</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/e.png" alt="Prototype Screen 5" onclick="openLightbox(this)">
+            <p>Forgot password page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/f.png" alt="Prototype Screen 6" onclick="openLightbox(this)">
+            <p>Create new password page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/g.png" alt="Prototype Screen 7" onclick="openLightbox(this)">
+            <p>Confirmation that password was changed successfully</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/h.png" alt="Prototype Screen 8" onclick="openLightbox(this)">
+            <p>Homepage of the system</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/i.png" alt="Prototype Screen 9" onclick="openLightbox(this)">
+            <p>Booking page for selecting destination</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/j.png" alt="Prototype Screen 10" onclick="openLightbox(this)">
+            <p>Bus selection page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/k.png" alt="Prototype Screen 11" onclick="openLightbox(this)">
+            <p>Schedule selection for available trips</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/l.png" alt="Prototype Screen 12" onclick="openLightbox(this)">
+            <p>Seat selection for preferred booking</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/m.png" alt="Prototype Screen 13" onclick="openLightbox(this)">
+            <p>Service offers page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/n.png" alt="Prototype Screen 14" onclick="openLightbox(this)">
+            <p>Passenger information form</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/o.png" alt="Prototype Screen 15" onclick="openLightbox(this)">
+            <p>Payment method selection page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/p.png" alt="Prototype Screen 16" onclick="openLightbox(this)">
+            <p>Payment details for online payment</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/q.png" alt="Prototype Screen 17" onclick="openLightbox(this)">
+            <p>QR code shown for pay at terminal option</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/s.png" alt="Prototype Screen 18" onclick="openLightbox(this)">
+            <p>Confirmation that receipt was saved</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/t.png" alt="Prototype Screen 19" onclick="openLightbox(this)">
+            <p>Confirmation of successful online payment</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/u.png" alt="Prototype Screen 20" onclick="openLightbox(this)">
+            <p>Trip summary and receipt download page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/v.png" alt="Prototype Screen 21" onclick="openLightbox(this)">
+            <p>Important reminders page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/w.png" alt="Prototype Screen 22" onclick="openLightbox(this)">
+            <p>Trip details and booking cancellation page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/x.png" alt="Prototype Screen 23" onclick="openLightbox(this)">
+            <p>Cancel booking confirmation overlay</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/y.png" alt="Prototype Screen 24" onclick="openLightbox(this)">
+            <p>Confirmation that booking was cancelled</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z.png" alt="Prototype Screen 25" onclick="openLightbox(this)">
+            <p>User profile page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_1.png" alt="Prototype Screen 26" onclick="openLightbox(this)">
+            <p>Edit profile page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_2.png" alt="Prototype Screen 27" onclick="openLightbox(this)">
+            <p>Confirmation that profile was updated successfully</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_3.png" alt="Prototype Screen 28" onclick="openLightbox(this)">
+            <p>Notifications page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_4.png" alt="Prototype Screen 29" onclick="openLightbox(this)">
+            <p>Settings page with Help & Support and Language options</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_5.png" alt="Prototype Screen 30" onclick="openLightbox(this)">
+            <p>Help and support page</p>
+        </div>
+
+        <div class="p-walk-card">
+            <img src="images/z_6.png" alt="Prototype Screen 31" onclick="openLightbox(this)">
+            <p>Logout confirmation page</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="container card">
+    <div class="section-header">
+    <h3>Conclusion</h3>
+
+    <div class="step-lines">
+        <div class="step-line"></div>
+        <div class="step-line"></div>
+        <div class="step-line active"></div>
+    </div>
+</div>
+
+    <p>
+        The Click&Go prototype was designed to improve convenience and accessibility for users.
+        Through this walkthrough, the system demonstrates a clear and efficient process that
+        supports easy navigation and faster booking transactions.
+    </p>
+</section>
+
+<div id="lightbox" class="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" src="">
+</div>
+
+<footer>
+    <p>&copy; 2026 Click&Go Usability Evaluation Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

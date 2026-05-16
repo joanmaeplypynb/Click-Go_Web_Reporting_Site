@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - Click&Go</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="data-page">
+
+    <section class="hero">
+
+        <header class="navbar">
+
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Click&Go Logo" class="logo-img">
+                <span class="logo-text">Click&Go</span>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="index.html">Home</a>
+                <a href="data_gathering.html">Data Gathering</a>
+                <a href="results.html" class="active">Results</a>
+
+                <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(event)">
+        More ▾
+    </button>
+
+    <div class="dropdown-content" id="moreDropdown">
+        <a href="reflections.html">Reflections</a>
+        <a href="additional_findings.html">Additional Findings</a>
+        <a href="p_walkthrough.html">Prototype Walkthrough</a>
+        <a href="video_demo.html">Video Demo</a>
+    </div>
+</div>
+
+            </div>
+
+        </header>
+
+        <div class="hero-content">
+            <div class="hero-text">
+               <h2>Results & Discussion</h2>
+        <p>Summary of usability testing findings and system evaluation insights.</p>
+            </div>
+        </div>
+
+    </section>
+
+<section class="container card">
+    <div class="section-header" data-step="1">
+    <h3>SUMMARY OF USABILITY TESTING RESULTS</h3>
+</div>
+    <div class="step-lines">
+    <div class="step-line active"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+</div>
+
+    <p>
+        Presented in this section are the results of the usability testing conducted for the Click&Go prototype. It summarizes the responses gathered from the participants regarding their profile, system usage, and overall evaluation of the system. The results are shown through a series of figures that visually present the data collected. These figures provide a clear overview of the users’ feedback and experience with the system.
+    </p>
+
+    <br><br>
+
+    <div class="graph-section">
+
+    <!-- NEW EMPTY FIRST SLOT -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=119607759&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="368" height="228" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=119607759&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Time Taken</p>
+            <p class="fig-desc">
+                The results show that most respondents were able to complete the booking process within 3 to 5 minutes, indicating that the system allows fast and efficient transaction processing.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1973074074&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="368" height="228" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1973074074&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Overall System Success Rate of Click&Go Prototype</p>
+            <p class="fig-desc">
+                The system obtained a 73% success rate based on user responses, indicating that most participants were able to successfully use and understand the system effectively.
+            </p>
+        </div>
+    </div>
+
+
+     <div class="graph-row single">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=832597949&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="368" height="228" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=832597949&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Satisfaction Score</p>
+            <p class="fig-desc">
+                The results show that most participants achieved moderate to high satisfaction scores, with several reaching the highest rating. This indicates that the Click&Go system is generally well-received by users, although a few participants gave lower ratings, suggesting areas for improvement.
+            </p>
+        </div>
+        </div>
+
+    <!-- FIGURE 2 & 3 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1675065909&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="368" height="228" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1675065909&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Gender Distribution of Respondents</p>
+            <p class="fig-desc">
+                The results indicates that both male and female participants were included in the usability testing, ensuring a balanced representation of users for the evaluation of the Click&Go system.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=86866182&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="391" height="242" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=86866182&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Academic Background</p>
+            <p class="fig-desc">
+                This figure shows that all respondents are from the Bachelor of Arts in Communication (BACOM) program, specifically from Sections A and B, ensuring that the system was evaluated by its intended user group.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 4 & 5 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=216843766&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="352" height="218" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=216843766&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Respondents’ Experience with Similar Booking Systems</p>
+            <p class="fig-desc">
+                The data shows whether respondents have prior experience using similar booking or transportation systems. The results indicate a mix of experienced and inexperienced users, which helps evaluate the usability of the system for both familiar and first-time users
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=942612081&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="355" height="220" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=942612081&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Frequency of Technology Usage</p>
+            <p class="fig-desc">
+                This figure shows how often respondents use technology in their daily activities. The results suggest that most participants are regular technology users, which may positively influence their ability to navigate and evaluate the system.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 6 & 7 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=985777041&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=985777041&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 1: "I would like to use this system frequently."</p>
+            <p class="fig-desc">
+                The results indicate that most respondents agreed they would use the system frequently. This suggests a strong positive acceptance and interest in adopting the Click&Go platform for future use.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=308751001&amp;format=interactive"
+                   target="_blank"
+                   class="chart-link">Open Chart ↗</a>
+
+                <iframe width="400" height="248" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=308751001&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 2: “The system is unnecessarily complex.”</p>
+            <p class="fig-desc">
+                Most respondents selected a neutral response regarding system complexity, indicating that the system is neither perceived as complex nor simple by a large portion of the users.
+            </p>
+        </div>
+    </div>
+
+        <!-- FIGURE 8 & 9 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1580230965&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="352" height="218" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1580230965&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 3: “The system is easy to use.”</p>
+            <p class="fig-desc">
+                The results show strong agreement that the system is easy to use. This suggests that the interface design effectively supports user interaction and usability.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1217213151&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="391" height="242" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1217213151&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 4: “Need support of a technical person to use this system.”</p>
+            <p class="fig-desc">
+                Most respondents disagreed that they need technical support to use the system. This implies that the system can be independently used without assistance.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 10 & 11 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=126630112&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="352" height="218" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=126630112&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 5: “Functions are well integrated.”</p>
+            <p class="fig-desc">
+                The results show that respondents agreed the system functions are well integrated. This suggests that the features of the Click&Go system work cohesively and are logically organized.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=30558730&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="355" height="220" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=30558730&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 6: “Too much inconsistency.”</p>
+            <p class="fig-desc">
+                Most respondents disagreed that there is inconsistency in the system. This indicates that the interface design is uniform and consistent across features.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 12 & 13 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1858515021&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1858515021&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 7: “Learn very quickly.”</p>
+            <p class="fig-desc">
+                The results show that respondents strongly agreed that the system is easy to learn. This indicates that users can quickly understand how to use the system without extensive training.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1889453053&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="355" height="220" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1889453053&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 8: “Cumbersome to use.”</p>
+            <p class="fig-desc">
+                Most users disagreed that the system is cumbersome. This suggests that the system is efficient and easy to navigate.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 14 & 15 -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=295251557&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=295251557&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 9: “Confident using the system.”</p>
+            <p class="fig-desc">
+                The results indicate high user confidence when using the system. This suggests that users feel comfortable interacting with the Click&Go interface.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1121556713&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1121556713&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 10: "Perceived Learning Requirement of the System"</p>
+            <p class="fig-desc">
+                The results show that most respondents agreed that they needed to learn several things before using the system, indicating that some level of familiarization is required before fully using the Click&Go system.
+            </p>
+        </div>
+    </div>
+
+    <!-- FIGURE 15 & 16 (FINAL ROW) -->
+    <div class="graph-row two">
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=190126762&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=190126762&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 11: What did you like about the system?</p>
+            <p class="fig-desc">
+                The responses show that users liked the system because it is easy to use, accessible on mobile devices, and helps make booking more convenient and time-efficient.
+            </p>
+        </div>
+
+        <div class="graph-item">
+            <div class="chart-box">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1057764212&amp;format=interactive"
+                 target="_blank"
+                 class="chart-link">
+                    Open Chart ↗
+                </a>
+                <iframe width="417" height="257" seamless frameborder="0" scrolling="no"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRjIJppQQ0FHQyX_pKr3bQFrw99cW54wgUi43azbtJslUzyBWoaVOoYrlnHtLJyQEcQsr41sjdFj5mY/pubchart?oid=1057764212&amp;format=interactive"></iframe>
+            </div>
+            <p class="fig-title">Question 12: What improvements can you suggest?</p>
+            <p class="fig-desc">
+                The results indicate that users suggested improvements such as enhancing interface clarity, improving loading speed, adding clearer instructions, and integrating features such as maps or live tracking.
+            </p>
+        </div>
+    </div>
+
+</div>
+</section>
+
+
+    <section class="container card">
+        <div class="section-header" data-step="2">
+        <h3>KEY ISSUES IDENTIFIED</h3>
+
+   <div class="step-lines">
+    <div class="step-line"></div>
+    <div class="step-line active"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+</div>
+
+   <div class="recommendation-box">
+    <p>
+        Some parts of the system still need UI/UX improvement, as users found 
+        certain areas less intuitive and visually inconsistent.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        Clear instructions or guidance are limited in some parts of the system, 
+        which may cause confusion for users during tasks.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        The visual design of the system can still be improved to make the 
+        interface more appealing and consistent.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        Loading speed in some parts of the system may affect user experience, 
+        making the process less smooth and responsive.
+    </p>
+</div>
+
+</section>
+<section class="container card discussion-box">
+       <div class="section-header" data-step="3">
+        <h3>DISCUSSION OF FINDINGS</h3>
+
+   <div class="step-lines">
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line active"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+</div>
+
+    <div class="discussion-content">
+
+        <p style="text-align: justify;">
+            The results of the usability evaluation show that the Click&Go prototype was generally well received by users, with most participants finding the system easy to use, easy to learn, and suitable for frequent use. Users also reported feeling confident while navigating the platform, which indicates that the interface provides enough clarity and guidance. In addition, many respondents did not strongly feel the need for technical support, suggesting that the system is understandable even for first-time users.
+
+However, some minor usability issues were still identified, particularly in navigation, button consistency, and error prevention. Some users experienced slight complexity in certain parts of the booking process, while others suggested clearer confirmation prompts and more visible instructions before completing important actions. These findings show that while the prototype performs well in overall usability, improving consistency and strengthening confirmation features can further enhance the user experience.
+        </p>
+
+    </div>
+</section>
+
+<section class="container card">
+     <div class="section-header" data-step="4">
+        <h3>RECOMMENDATIONS FOR IMPROVING THE PROTOTYPE</h3>
+
+   <div class="step-lines">
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line active"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+</div>
+
+   <div class="recommendation-box">
+    <p>
+        Improve the overall UI/UX by making the system more intuitive, 
+        user-friendly, and visually consistent for all users.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        Add clearer instructions and guidance within the system to help users 
+        complete tasks smoothly and reduce confusion.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        Enhance the visual design by improving layout consistency and overall 
+        appearance to make the interface more appealing.
+    </p>
+</div>
+
+<div class="recommendation-box">
+    <p>
+        Optimize loading speed to improve system responsiveness and provide a 
+        smoother user experience during booking and navigation.
+    </p>
+</div>
+
+</section>
+
+<section class="container card">
+   <div class="section-header" data-step="5">
+        <h3>SUGGESTED DESIGN IMPROVEMENTS</h3>
+
+    <div class="step-lines">
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line active"></div>
+    <div class="step-line"></div>
+</div>
+
+    <div class="design-grid">
+
+        <div class="design-card">
+    <h4>Improve UI/UX</h4>
+    <p>
+        Make improvements to the overall usability to ensure the interface is easier 
+        to use and more consistent across all screens.
+    </p>
+</div>
+
+<div class="design-card">
+    <h4>Add Simple Instructions</h4>
+    <p>
+        Provide clear and concise guidance in some parts of the system to help users 
+        understand what to do.
+    </p>
+</div>
+
+<div class="design-card">
+    <h4>Improve Visual Design</h4>
+    <p>
+        Enhance the layout and styling to make the interface more organized and 
+        visually consistent.
+    </p>
+</div>
+
+<div class="design-card">
+    <h4>Improve Performance</h4>
+    <p>
+        Optimize loading speed in certain parts of the system to ensure smoother 
+        user interaction.
+    </p>
+</div>
+    </div>
+</section>
+
+<section class="container card">
+  <div class="section-header" data-step="6">
+        <h3>HEURISTIC EVALUATION WORKBOOK</h3>
+
+  <div class="step-lines">
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line"></div>
+    <div class="step-line active"></div>
+</div>
+    <p>Attached PDF of the completed Heuristic Evaluation Workbook:</p>
+
+    <div class="form-center">
+        <a href="assets/full_HEW.pdf" target="_blank" class="form-link">
+            📄 View Heuristic Evaluation Workbook
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Click&Go Usability Evaluation Project</p>
+</footer>
+
+<div id="lightbox" class="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" src="">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
